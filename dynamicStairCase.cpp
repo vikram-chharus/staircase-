@@ -1,8 +1,8 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-vector<int> path;
-vector< vector<int> > sequence;
+vector<int> path;//to store a single path from root to a leadf
+vector< vector<int> > sequence;//to store all of the unique paths
 class Node
 {
 	vector<Node*> steps;
